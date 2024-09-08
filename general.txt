@@ -1,0 +1,36 @@
+To Enable Clipboard History, Download Clipboard Indicator Extension https://extensions.gnome.org/extension/779/clipboard-indicator/
+
+-------------------------------------------------------------------
+
+Extract any test on screen using OCR - NormCap
+Open a terminal (you can use Ctrl + Alt + T).
+Navigate to a directory where you’d like to store your custom scripts (e.g., ~/bin/).
+Create a new file for your script (e.g., normcap_launcher.sh)
+
+- touch ~/bin/normcap_launcher.sh
+
+- nano ~/bin/normcap_launcher.sh
+
+Add following:
+#!/bin/bash
+/path/to/NormCap-0.5.8-x86_64.AppImage
+
+Make it Executable:
+chmod +x ~/bin/normcap_launcher.sh
+
+Assign a keyboard shortcut through Settings.
+
+------------------------------------------------------
+
+
+You can explore GENOME 'Extensions' from apps menu.
+
+You can Limit Battery charging percentage. Refer : https://sl.bing.net/hE8k3gMBiMK
+
+------------------------------------
+
+Want to create a bootable pen drive? Install 'Startup Disk Creator'
+- sudo apt update
+- sudo apt install usb-creator-gtk
+
+If the application dosent recognise the '.iso' file you stored, then rename the file to '.img'
