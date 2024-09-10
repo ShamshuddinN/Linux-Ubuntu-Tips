@@ -2,7 +2,7 @@ To Enable Clipboard History, Download Clipboard Indicator Extension https://exte
 
 -------------------------------------------------------------------
 
-Extract any test on screen using OCR - NormCap
+Extract any text on screen using OCR - NormCap
 Open a terminal (you can use Ctrl + Alt + T).
 Navigate to a directory where you’d like to store your custom scripts (e.g., ~/bin/).
 Create a new file for your script (e.g., normcap_launcher.sh)
