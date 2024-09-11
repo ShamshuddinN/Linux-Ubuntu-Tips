@@ -11,6 +11,3 @@ Syntax: python3 -m venv {name of virtual environment}
 
 Activating Virtual Environment:
 source venv/bin/activate
-
-Installing requirements:
-Use pip3 instead of pip.
