@@ -1,3 +1,10 @@
+It is recommended to install pip:
+sudo apt update
+sudo apt install python3-pip
+
+Install venv package:
+sudo apt install python3.12-venv
+
 Creating Virtual Environment:
 python3 -m venv venv
 Syntax: python3 -m venv {name of virtual environment}
