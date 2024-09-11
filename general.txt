@@ -37,6 +37,25 @@ You can explore GENOME 'Extensions' from apps menu.
 
 You can Limit Battery charging percentage. Refer : https://sl.bing.net/hE8k3gMBiMK
 
+ls /sys/class/power_supply/
+ls /sys/class/power_supply/BAT0/
+sudo nano /etc/systemd/system/battery-charge-end-threshold.service
+
+______________________________
+[Unit]
+Description=Set Battery Charge End Threshold
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'echo 80 > /sys/class/power_supply/BAT0/charge_control_end_threshold'
+
+[Install]
+WantedBy=multi-user.target
+____________________________
+
+sudo systemctl enable battery-charge-end-threshold.service
+sudo systemctl start battery-charge-end-threshold.service
+
 ------------------------------------
 
 Want to create a bootable pen drive? Install 'Startup Disk Creator'
