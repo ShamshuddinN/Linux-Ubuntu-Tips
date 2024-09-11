@@ -1,0 +1,34 @@
+Install WoeUSB:
+sudo apt update && sudo apt upgrade
+sudo add-apt-repository ppa:tomtomtom/woeusb -y
+sudo apt update
+sudo apt install woeusb -y
+
+- Plug in the usb drive
+- If usb drive is not formatted with NTFS file system, format it.
+- Unmount the usb drive (Right click on usb drive icon and select unmount).
+- Open WoeUSB and select windows iso and usb drive and click install
+- Download (Intel® Rapid Storage Technology (Intel® RST) Driver) https://www.asus.com/in/supportonly/irst/helpdesk_download/ [ref Step1]
+- Extract the file to usb drive just created
+
+- boot into BIOS menu by holding f2 and pressing power button.
+- got to boot menu select the bootable usb and hit enter
+
+1.
+- try to install normally
+- if it says drivers are not found, then click load drivers and select the extracted folder (IRST driver folder) (ref Step1)
+- go ahead
+if Error occures which says windows must be installed to partition formatted as NTFS then See below steps of 2.
+
+2.
+- Return to Installation menu with 'install now' button.
+- press Shift+F10 [Command prompt will appear]
+- type 'diskpart' and hit enter.
+- type 'list disk' and hit enter.
+- select the disk in which windows will bw installed (refer storage volumes to distinguish). Example: 'select disk 1'
+- type 'clean' and hit enter. >>! This will clear all data on the disk !<<
+- type 'exit' hit enter. repeat this one more time
+- click on Install now
+- At the time of disk/partition selection (if it is written unallocated space on disk), select the disk and click on New
+- Do not change anything, click On 'alpply' then 'ok'
+Now Go ahead windows should install now.
