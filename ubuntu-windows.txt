@@ -12,7 +12,7 @@ sudo apt install woeusb -y
 - Extract the file to usb drive just created
 
 - boot into BIOS menu by holding f2 and pressing power button.
-- got to boot menu select the bootable usb and hit enter
+- go to boot menu select the bootable usb and hit enter
 
 1.
 - try to install normally
