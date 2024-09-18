@@ -32,7 +32,10 @@ All Set
 
 ------------------------------------------------------
 
+Configure preload to improve performance:
+sudo apt install preload
 
+--------------------------------------------------------
 You can explore GENOME 'Extensions' from apps menu.
 
 You can Limit Battery charging percentage. Refer : https://sl.bing.net/hE8k3gMBiMK
