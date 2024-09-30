@@ -24,6 +24,8 @@ Download NormCap: https://dynobo.github.io/normcap/
 5. ctrl+o then Enter then ctrl+x
 6. make app image executable
 chmod +x normcapu.AppImage
+| Also make .sh file executable
+chmod +x normcap.sh
 7. Install FUSE (Required to run AppImage Files):
 sudo apt install libfuse2
 8. Test Running it
