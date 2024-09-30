@@ -18,16 +18,19 @@ Download NormCap: https://dynobo.github.io/normcap/
 1. Make a folder in home folder, Example: binnu, (**Do not name it 'bin') Bring AppImage file in this folder
 2. launch terminal in binnu
 3. run: touch normcap.sh | nano normcap.sh
-4.
+4. Note: '/' must be there at start of path (from below second line is path)
 #!/bin/bash
-full/path/to/NormCap-0.5.8-x86_64.AppImage
+/home/username/binnu/NormCap-0.5.8-x86_64.AppImage
 5. ctrl+o then Enter then ctrl+x
 6. make app image executable
 chmod +x normcapu.AppImage
-7. Test Running it
+7. Install FUSE (Required to run AppImage Files):
+sudo apt install libfuse2
+8. Test Running it
 ./normcapu.AppImage
-8. go to settings>Keyboard>View and Customize Shortcuts>Custom Shortcuts> + anyname, Path: /full/path/to/binnu/normcap.sh
-9. assign any shortcut combination keys
+9. go to settings>Keyboard>View and Customize Shortcuts>Custom Shortcuts> + anyname, Path: /home/username/binnu/normcap.sh
+*Note: '/' must be there at start of path
+10. assign any shortcut combination keys
 All Set
 
 ------------------------------------------------------
