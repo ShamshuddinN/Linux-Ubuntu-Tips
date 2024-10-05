@@ -46,6 +46,7 @@ Can't Find 'Extensions' Application?
 Install it:
 sudo apt update
 sudo apt install gnome-shell-extensions
+[A Reboot (restart) is recommended after above commands]
 -------------------------------------------------------------
 
 You can Limit Battery charging percentage. Refer : https://sl.bing.net/hE8k3gMBiMK
