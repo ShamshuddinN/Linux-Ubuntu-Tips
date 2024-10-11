@@ -30,5 +30,5 @@ if Error occures which says windows must be installed to partition formatted as 
 - type 'exit' hit enter. repeat this one more time
 - click on Install now
 - At the time of disk/partition selection (if it is written unallocated space on disk), select the disk and click on New
-- Do not change anything, click On 'alpply' then 'ok'
+- Do not change anything, click On 'apply' then 'ok'
 Now Go ahead windows should install normally.
