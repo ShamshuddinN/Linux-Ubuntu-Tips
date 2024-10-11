@@ -25,10 +25,10 @@ if Error occures which says windows must be installed to partition formatted as 
 - press Shift+F10 [Command prompt will appear]
 - type 'diskpart' and hit enter.
 - type 'list disk' and hit enter.
-- select the disk in which windows will bw installed (refer storage volumes to distinguish). Example: 'select disk 1'
+- select the disk in which windows will be installed (refer storage volumes to distinguish). Example: 'select disk 1'
 - type 'clean' and hit enter. >>! This will clear all data on the disk !<<
 - type 'exit' hit enter. repeat this one more time
 - click on Install now
 - At the time of disk/partition selection (if it is written unallocated space on disk), select the disk and click on New
 - Do not change anything, click On 'alpply' then 'ok'
-Now Go ahead windows should install now.
+Now Go ahead windows should install normally.
