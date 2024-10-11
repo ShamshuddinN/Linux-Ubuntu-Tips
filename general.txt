@@ -5,6 +5,7 @@ Setting up Clipboard Indicator:
 sudo apt update
 sudo apt install gnome-shell-extensions
 2.Visit https://extensions.gnome.org/extension/779/clipboard-indicator/ and click install.
+- reboot once
 3. Now the extnension should be enabled automatically, if not:
 sudo apt install gnome-tweaks
 gnome-tweaks
@@ -75,6 +76,6 @@ sudo systemctl start battery-charge-end-threshold.service
 Want to create a bootable pen drive? Install 'Startup Disk Creator'
 - sudo apt update
 - sudo apt install usb-creator-gtk
-If the application dosent recognise the '.iso' file you stored, then rename the file to '.img'
+If the application dosen't recognise the '.iso' file you stored, then rename the file to '.img'
 Actually this USB Creator application is bit biased towards Ubuntu ISO File. So best suits if you want to create Ubuntu Bootable drive.
 For General purpose use, the best tool to use is Ventoy: https://github.com/ventoy/Ventoy
