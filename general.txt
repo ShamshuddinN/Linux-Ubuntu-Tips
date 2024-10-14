@@ -50,7 +50,7 @@ sudo apt install gnome-shell-extensions
 [A Reboot (restart) is recommended after above commands]
 -------------------------------------------------------------
 
-You can Limit Battery charging percentage. Refer : https://sl.bing.net/hE8k3gMBiMK
+You can Limit Battery charging percentage. Refer : https://sl.bing.net/hE8k3gMBiMK //Reference link seems broken***
 
 ls /sys/class/power_supply/
 ls /sys/class/power_supply/BAT0/
