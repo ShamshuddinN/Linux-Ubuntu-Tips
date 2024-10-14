@@ -11,3 +11,6 @@ Syntax: python3 -m venv {name of virtual environment}
 
 Activating Virtual Environment:
 source venv/bin/activate
+
+To Deactivate:
+deactivate
