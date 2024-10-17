@@ -90,3 +90,7 @@ To Run application from command line:
 guvcview
 
 application is also available to run from applications menu named 'guvcview'
+------------------------------------------------------------
+
+Check Serial number of computer:
+sudo dmidecode -s system-serial-number
