@@ -1,0 +1,7 @@
+ibus-m17n
+sudo apt-get install ibus-m17n
+sudo localectl set-locale LANG=hi_IN.UTF-8
+sudo apt-get install ibus
+ibus-setup
+sudo locale-gen hi_IN.UTF-8
+sudo dpkg-reconfigure locales
