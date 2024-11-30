@@ -27,3 +27,6 @@ Got to settings
 find Language <yourLanguageCode>itrans(m17n)
 Example: Kannada (kn-itrans (m17n))
 I found it is (itrans) most convenient to type Local languages with this type of keyboard layout, you can experiment around and find yours.
+
+Important keystroke:
+press Shift+M for inserting 'o' Example: ಅಂ < that 'o'
