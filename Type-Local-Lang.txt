@@ -1,0 +1,29 @@
+run
+sudo apt update
+sudo apt upgrade -y
+
+sudo apt-get install ibus-m17n
+(Enter Your Password)
+
+sudo dpkg-reconfigure locales
+
+Select Your Local Language (by pressing space) (navigate up and down using arrow keys)
+
+Example:
+kn_IN UTF-8 = Kannada
+hi_IN UTF-8 = Hindi
+etc
+
+Press tab
+Hit Enter
+
+Default locale for the system environment:
+select 
+en_US.UTF-8
+Press tab
+Hit Enter
+
+Got to settings
+find Language <yourLanguageCode>itrans(m17n)
+Example: Kannada (kn-itrans (m17n))
+I found it is (itrans) most convenient to type Local languages with this type of keyboard layout, you can experiment around and find yours.
