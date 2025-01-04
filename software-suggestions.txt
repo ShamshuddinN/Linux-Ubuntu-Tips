@@ -1,0 +1,10 @@
+Video And Audio Play: VLC Player
+Watching YT Videos: Brave*
+Default Browser: Edge*
+Cross Platform Remote Desktop: Rustdesk
+Cross Platform File Sharing: LocalSend
+Coding: VS Code, Sublime Text *
+
+
+
+* => 3rd party software
