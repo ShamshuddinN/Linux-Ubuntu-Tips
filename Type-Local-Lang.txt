@@ -23,6 +23,10 @@ en_US.UTF-8
 Press tab
 Hit Enter
 
+After Generation of Locals Completed, Reboot Once.
+Run Command: 
+reboot
+
 Got to settings
 find Language <yourLanguageCode>itrans(m17n)
 Example: Kannada (kn-itrans (m17n))
