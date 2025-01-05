@@ -5,6 +5,9 @@ Cross Platform Remote Desktop: Rustdesk
 Cross Platform File Sharing: LocalSend
 Coding: VS Code, Sublime Text *
 
+Local LLM Model: Ollama | https://ollama.com/download
+to run LLM:
+ollama run llama3.2
 
 
 * => 3rd party software
