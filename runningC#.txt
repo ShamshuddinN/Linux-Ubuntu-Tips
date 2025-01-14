@@ -1,0 +1,45 @@
+i) => info
+i) '>>' indicates command
+i) Performing all below methods with .net CLI
+
+---------------------------------------------------------------------------
+i) Below Commands Performed inside /home/username/Desktop/NetTest folder
+
+1. Creating a Console Application:
+- With Top Level Statements
+>> dotnet new console -n TestConsole
+(-n stands for 'name' & 'TestConsole' is the name of the console app)
+
+- without using Top-Level Statements (preffered)
+>> dotnet new console -n TestConsole --use-program-main
+
+2. Creating Class Library:
+>> dotnet new classlib -n BusinessLogic
+('BusinessLogic' is the name of the class Library)
+
+3. Adding Project Reference:
+>> dotnet add TestConsole/TestConsole.csproj reference BusinessLogic/BusinessLogic.csproj
+(Added 'BusinessLogic' reference in Console App)
+
+4. Click on /home/username/Desktop/NetTest/TestConsole/Program.cs file
+
+i) before this step if you clicked on TestConsole/Program.cs file, the Project Library will not be added in sln
+you need to manually add it
+>> dotnet sln add BusinessLogic/BusinessLogic.csproj
+
+- NetTest.sln file will appear (having both Console app and class Library added to sln file)
+
+
+5. Build Solution:
+>> dotnet build
+
+
+6. Run ConsoleApp:
+>> cd TestConsole/
+(To run ConsoleApp you need to be inside it.)
+----------
+i) Below command Performed inside /home/username/Desktop/NetTest/TestConsole/
+>> dotnet run
+
+
+
