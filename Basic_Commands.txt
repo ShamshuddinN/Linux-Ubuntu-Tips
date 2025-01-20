@@ -1,0 +1,48 @@
+-- Explore some essential and useful commands --
+
+i) pressing Tab auto complets with the most suitable command
+- Example: type 'reb' in terminal and hit Tab it complets 'reb' with 'reboot'
+
+>> reboot
+- Restart the computer
+
+>> poweroff
+- Shutdown computer
+
+>> sudo apt update && sudo apt upgrade -y
+- update software packages in Ubuntu
+
+>> sudo apt install ./package_name.deb
+- installing a debian package in computer (command assumes you have opened terminal 
+in the directory that contains '.deb' software package)
+
+>> ls
+- List files and directories at your current path in Terminal
+
+>> ls -a
+- Show all files in current path including hidden files
+
+>> cd Folder_Name/
+- Takes you to the specified folder in the tree
+
+>> cd ..
+- Come back one folder backwards
+
+>> mkdir Folder_Name
+- Creates a new Folder with specified name
+
+>> rmdir Folder_Name
+- Removes specified folder if it is empty
+
+>> rm -r Folder_Name
+- Removes Specified folder irrespective of if it is empty or not
+
+>> touch file_name.ext
+- Creates a file with specified filename and its extension (.ext)
+- Example >> touch myFile.txt : Creates a text file with '.txt' extension
+
+>> rm file_name.ext
+- Removes specified file
+
+>> pwd
+- Shows the current working directory
