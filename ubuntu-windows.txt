@@ -1,3 +1,5 @@
+i) This is to elabourate the process for switching back to Windows OS
+
 Install WoeUSB:
 sudo apt update && sudo apt upgrade
 sudo add-apt-repository ppa:tomtomtom/woeusb -y
