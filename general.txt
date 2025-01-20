@@ -76,7 +76,7 @@ sudo systemctl start battery-charge-end-threshold.service
 Want to create a bootable pen drive? Install 'Startup Disk Creator'
 - sudo apt update
 - sudo apt install usb-creator-gtk
-If the application dosen't recognise the '.iso' file you stored, then rename the file to '.img'
+If the application dosen't recognise the '.iso' file you stored, then rename the file extension to '.img'
 Actually this USB Creator application is bit biased towards Ubuntu ISO File. So best suits if you want to create Ubuntu Bootable drive.
 For General purpose use, the best tool to use is Ventoy: https://github.com/ventoy/Ventoy
 
