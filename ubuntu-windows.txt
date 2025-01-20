@@ -1,4 +1,4 @@
-i) This is to elabourate the process for switching back to Windows OS
+i) This is to elaborate the process for switching back to Windows OS
 
 Install WoeUSB:
 sudo apt update && sudo apt upgrade
