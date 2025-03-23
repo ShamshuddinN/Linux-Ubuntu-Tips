@@ -94,3 +94,24 @@ application is also available to run from applications menu named 'guvcview'
 
 Check Serial number of computer:
 sudo dmidecode -s system-serial-number
+
+---------------------------------------------------------------
+
+Set Shortcut Keys for brightness control:
+>> sudo apt install brightnessctl
+(You need to run brightnessctl command without requiring a password in order to set it as a shortcut command)
+To do that:
+>> sudo visudo
+
+add the following line (**replacing username with your actual 'username'**):
+>> username ALL=(ALL) NOPASSWD: /usr/bin/brightnessctl
+
+Press Ctrl + O to save the changes, then Ctrl + X to exit.
+
+Shortcut command to increase brightness:
+>> sudo brightnessctl set +10%
+
+to decrease:
+>> sudo brightnessctl set 10%-
+
+You can set the percentage as you like.
