@@ -41,5 +41,12 @@ you need to manually add it
 i) Below command Performed inside /home/username/Desktop/NetTest/TestConsole/
 >> dotnet run
 
+Additional Info:
+i) To create a class at current path:
+>> dotnet new class -n ClassName
 
-
+i) If you create multiple projects (i.e multiple console apps and class libraries in different files) those projects will not be added into the main solution file. You need to add them manually. Otherwise the other projects will not run.
+Example:
+navigate to directory where main solution file is located.
+>> dotnet sln add [path of the project to be added]
+-- Path should be where the .csproj file of the project is located.
