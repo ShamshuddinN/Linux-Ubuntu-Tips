@@ -98,6 +98,7 @@ sudo dmidecode -s system-serial-number
 ---------------------------------------------------------------
 
 Set Shortcut Keys for brightness control:
+i) Below method is tested in Fedora OS.
 >> sudo apt install brightnessctl
 (You need to run brightnessctl command without requiring a password in order to set it as a shortcut command)
 To do that:
@@ -115,3 +116,13 @@ to decrease:
 >> sudo brightnessctl set 10%-
 
 You can set the percentage as you like.
+
+
+Above Method does not work?
+For Increasing brightness:
+>> gdbus call --session --dest org.gnome.SettingsDaemon.Power --object-path /org/gnome/SettingsDaemon/Power --method org.gnome.SettingsDaemon.Power.Screen.StepUp
+
+For Decreasing brightness:
+>> gdbus call --session --dest org.gnome.SettingsDaemon.Power --object-path /org/gnome/SettingsDaemon/Power --method org.gnome.SettingsDaemon.Power.Screen.StepDown
+
+If above commands work, set shortcuts accordingly
