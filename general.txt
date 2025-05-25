@@ -6,6 +6,14 @@ sudo apt update
 sudo apt install gnome-shell-extensions
 2.Visit https://extensions.gnome.org/extension/779/clipboard-indicator/ and click install.
 - reboot once
+
+Not Working?
+Go to App Center > search "Extension Manager" > install it
+- Go to "Browse" tab in Extension Manager
+- Search "Clipboard Indicator"
+- There you can find an extension "Clipboard Indicator" with developer "Tudmotu"
+- Install this Extension.
+
 3. Now the extnension should be enabled automatically, if not:
 sudo apt install gnome-tweaks
 gnome-tweaks
