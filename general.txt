@@ -1,13 +1,6 @@
 Enabling Clipboard History:
 
 Setting up Clipboard Indicator:
-1. Open treminal (ctrl+alt+t)
-sudo apt update
-sudo apt install gnome-shell-extensions
-2.Visit https://extensions.gnome.org/extension/779/clipboard-indicator/ and click install.
-- reboot once
-
-Not Working?
 Go to App Center > search "Extension Manager" > install it
 - Go to "Browse" tab in Extension Manager
 - Search "Clipboard Indicator"
