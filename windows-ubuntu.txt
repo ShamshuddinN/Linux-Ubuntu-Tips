@@ -1,0 +1,17 @@
+1. Disable Bitlocker Encryption in windows
+- Open Windows Powershell in Administrator Mode
+- Check Encryption
+>> manage-bde -status
+- Disable Encryption:
+i) Command Format: Disable-BitLocker -MountPoint <Drive Letter you want to decrypt>
+>> Disable-BitLocker -MountPoint "C:"
+
+2. Download Unbuntu: https://ubuntu.com/download/desktop
+- Download Portable version of rufus: https://rufus.ie/en/
+- Plug in Bootable Pen drve
+- Open Rufus and create bootable pendrive
+
+3. Enter BIOS menu in computer
+- Try or install ubuntu
+- Install Ubuntu
+- Follow instructions.
