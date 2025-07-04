@@ -12,6 +12,14 @@ sudo apt install gnome-tweaks
 gnome-tweaks
 All set.
 
+------------------------------------------------------------------
+System Monitor Extension:
+>> sudo apt-get update -y
+>> sudo apt-get install -y gir1.2-gtop-2.0
+Reboot Once
+
+Go to Extension manager and search for 'System Monitor'
+Select option with developer 'fmuellner'
 -------------------------------------------------------------------
 
 Extract any text on screen using OCR - NormCap
