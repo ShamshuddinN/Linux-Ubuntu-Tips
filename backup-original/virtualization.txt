@@ -1,0 +1,29 @@
+Setting Up QEMU/KVM on Ubuntu 24.04: It is easy!
+
+>> egrep -c '(vmx|svm)' /proc/cpuinfo
+If output >= 1 You are good to go.
+
+Run below commands:
+>> sudo apt update
+>> sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager
+
+>> sudo usermod -aG libvirt $USER
+>> sudo usermod -aG kvm $USER
+
+- Logout and Login (You can also do a restart)
+
+>> newgrp libvirt
+>> newgrp kvm
+
+Now you will see an application named "Virtual Machine Manager" in apps menu launch it.
+Could not see it? Try restarting it.
+Or try running it with below command:
+>> virt-manager
+
+Now You'll see a GUI where you can:
+- Create a new VM
+- Choose an ISO file (Ubuntu, Fedora, etc.)
+- Allocate RAM, CPU, disk size
+- Boot and run your VM
+
+Thats it!
